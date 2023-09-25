@@ -25,3 +25,5 @@ Part 2: Utilization of machine learning algorithms to classify the fruits
 The main libraries that are required for this project are matplotlib, numpy, pandas, collections, seaborn, pylab, and matplotlib.pyplot for the first part, and sci-kit learn for the second part. 
 
 More things to note are that I did have trouble running the program on WSL distribution with Python 3.10.8. The program only worked when I used Python 3.8.10. 
+
+Screenshots of the bar graph, box plot, histogram, scatter matrix, 4-class classification, and accuracy graph have also been provided for visual reference. 
