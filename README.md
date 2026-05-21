@@ -14,12 +14,12 @@ The code is broken down into several parts, with two distinct parts:
 ## Part 2: Utilization of machine learning algorithms to classify the fruits 
 1. Creation of training and testing sets
 2. Building of various models for machine learning algorithms
-  a. Logistic Regression
-  b. Decision Tree
-  c. K-Nearest Neighbors
-  d. Linear Discriminant Analysis
-  e. Gaussian Naive Bayes
-  f. Support Vector Machine
+- Logistic Regression
+- Decision Tree
+- K-Nearest Neighbors
+- Linear Discriminant Analysis
+- Gaussian Naive Bayes
+- Support Vector Machine
 3. Plotting of Decision Boundary of the k-NN classifier
 
 The main libraries that are required for this project are matplotlib, numpy, pandas, collections, seaborn, pylab, and matplotlib.pyplot for the first part, and sci-kit learn for the second part. 
