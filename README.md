@@ -6,7 +6,7 @@ The code is broken down into several parts, with two distinct parts:
 
 1. Printing out the head of the file (i.e. the total number of fruits and the number of features evaluated)
 2. Printing out the number of types of fruits
-3. Plotting a bar graph of each type of fruit (Note that for this step I had trouble using seaborn's countplot and instead used matplotlib's histogram to display the count of each type of fruit
+3. Plotting a bar graph of each type of fruit (Note that for this step I had trouble using seaborn's countplot and instead used matplotlib's histogram to display the count of each type of fruit)
 4. Plotting a box plot to better visualize the distribution of each type of fruit
 5. Plotting a histogram of each type of fruit
 6. Plotting a scatter matrix of each feature
@@ -35,7 +35,7 @@ As of 5/21/2026, the package requirements are as follows:
 - seaborn: 0.12.2 (seaborn had issues with importing, so matplotlib was substituted in for the histogram)
 - Matplotlib: 3.7.3
 
-Note that using the most recent version of scikit-learn is recommended to avoid the "AttributeError: module 'numpy' has not attribute 'typeDict'", which occurs when using a version of NumPy >= 1.20.0 and using a version of scikit-learn <= 1.3.0.
+Note that using the most recent version of scikit-learn is recommended to avoid the "AttributeError: module 'numpy' has no attribute 'typeDict'", which occurs when using a version of NumPy >= 1.20.0 and using a version of scikit-learn <= 1.3.0.
 
 ## Results
 The most accurate model overall was the K-NN classifier, with a 0.95 accuracy on the training data and a 1.00 accuracy on the testing data, followed closely by the Decision Tree with a 1.00 accuracy on the training data and a 0.87 accuracy on the testing data. The worst performing model overall was the Logistic Regression classifier, with a 0.75 accuracy on the training data and a 0.47 accuracy on the testing data.
