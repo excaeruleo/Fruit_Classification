@@ -8,7 +8,7 @@ print(fruits.shape)
 print(fruits['fruit_name'].unique())
 print(fruits.groupby('fruit_name').size())
 
-import seaborn as sns
+#import seaborn as sns
 plt.hist(fruits['fruit_name'], label = "Count")
 plt.show()
 """sns.countplot(fruits['fruit_name'], label = "Count")
@@ -105,8 +105,10 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 import numpy as np
 pred = knn.predict(X_test)
-print(confusion_matrix(y_test, pred))
-print(classification_report(y_test, pred))
+print("Confusion matrix using using y_test and knn predictions of X_test:\n", confusion_matrix(y_test, pred))
+print("\n")
+print("Classification report using y_test and knn predictions of X_test:\n", classification_report(y_test, pred))
+print("\n")
 
 import matplotlib.cm as cm
 from matplotlib.colors import ListedColormap, BoundaryNorm
